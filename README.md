@@ -1,7 +1,8 @@
 # Praesidium
 Praesidium is an open source, easy-to-use bitcoin wallet for Blockchain Security 2Go cards written in Python. It is made for consumers and developers that want to experience almost all of the cards functionalities in a fast and intuitive GUI.
 
-![Screenshot][Main window 1]
+![Screenshot][Main window 1]  
+
 More pictures can be found below under [Screenshots](#Screenshots).
 
 ## Features
