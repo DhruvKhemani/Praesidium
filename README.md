@@ -75,17 +75,37 @@ The source code is licensed under GPLv3. The license is available [here](LICENSE
 The [PySide2](https://doc.qt.io/qt-5/licensing.html) library is licenced under [LGPLv3](https://doc.qt.io/qt-5/lgpl.html). The source code of this library was not modified in any way for this project. You can find the source code for PySide2 [here](https://download.qt.io/official_releases/QtForPython/).
 
 ## Screenshots
-
+Default start screen:
 ![Screenshot][Nocard window 1]
+
+Blockchain Security 2Go card gets placed on reader:
 ![Screenshot][Nocard window 2]
+
+Another card, that is not a Blockchain Security 2Go card, gets placed on the reader:
 ![Screenshot][Nocard window 3]
+
+A full Keypair screen:
 ![Screenshot][Keypair 1]
+
+Before there were 27 keypairs and now a new keypair (Keypair 28) gets generated:
 ![Screenshot][Keypair 2]
+
+Keypair 29 was entered in the `Keypair number` box, which not a valid keypair because it has not been generated yet:
 ![Screenshot][Keypair 3]
+
+Main window of Keypair 1 with PIN already entered correctly:
 ![Screenshot][Main window 1]
+
+A wrong PIN is entered (Note that a PIN can only be entered 3 times incorrectly, after that the card is locked and has to manually be unlocked via the command line and the PUK):
 ![Screenshot][Main window 2]
+
+Balance on this Bitcoin address is too low to sucessfully pay the desired amount to the target address:
 ![Screenshot][Main window 3]
+
+The returned change falls under the minimum amount of Satoshi required to make a transaction (This means either the fees can be increased, which the program does by default, or the amount can be increased or more balance can be added to this address so that the returned change is above the threshhold):
 ![Screenshot][Main window 4]
+
+A broadcastable transaction is generated and you can choose to broadcast or store it (This is done in case you want to push the transaction manually or at a later time):
 ![Screenshot][Main window 5]
 
 [Nocard window 1]: img/screenshot_nocard_waiting.png "Waiting for a card"
