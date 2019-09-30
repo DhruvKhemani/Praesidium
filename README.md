@@ -47,6 +47,8 @@ If you are on Windows and already have [chocolately package manager](https://cho
 
     choco install swig
     pip install blocksec2go
+    
+If any errors pop up, you are probably still missing some files/dependencies. I suggest you either google the error that pops up or open a new issue with a screenshot.
 
 #### Qt for Python:
 
