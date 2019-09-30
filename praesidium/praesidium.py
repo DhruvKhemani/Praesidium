@@ -957,6 +957,7 @@ class transaction_helper:
     TxOutHash = bytes.fromhex(self.blockchain.get_tx_hash(cycle))
     TxOutIndex = struct.pack('<L', self.blockchain.get_tx_o_n(cycle))
 
+    # The sequence changes depending on the lock time
     Sequence = struct.pack('<L', 0xFFFFFFFF)
 
     if('unsigned' == transaction_type):
