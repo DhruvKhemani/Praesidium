@@ -4,6 +4,26 @@ Welcome, and thank you for your interest in contributing to Praesidium!
 
 There are many ways in which you can contribute, beyond writing code. The goal of this document is to provide a high-level overview of how you can get involved.
 
+## Code Structure
+
+The following is an overview over the source code so that you know where to add your code:
+
+    Python imports
+    ...
+    Utility variables
+    ...
+    Utility related classes and functions
+    ...
+    Card / reader related classes and functions
+    ...
+    UI related classes and functions
+    ...
+    Bitcoin related classes and functions
+    ...
+    Application start
+    
+When contributing any kind of code, please make sure your additions are in the right category.
+
 ## Asking Questions
 
 Have a question? Just open a new issue or send a e-mail to gps.135.gps@gmail.com and you should get a quick response.
@@ -48,22 +68,6 @@ Don't feel bad if the developers can't reproduce the issue right away. They will
 ## Contributing Fixes
 
 If you are interested in writing code to fix issues, please open a pull request and I will have a quick read over it before implementing your contribution.
-
-The following is a high level overview over the source code so that you know where to add your code:
-
-    Python imports
-    ...
-    Utility variables
-    ...
-    Utility related classes and functions
-    ...
-    Card / reader related classes and functions
-    ...
-    UI related classes and functions
-    ...
-    Bitcoin related classes and functions
-    ...
-    Application start
 
 # Thank You!
 
