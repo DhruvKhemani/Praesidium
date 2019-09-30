@@ -49,6 +49,22 @@ Don't feel bad if the developers can't reproduce the issue right away. They will
 
 If you are interested in writing code to fix issues, please open a pull request and I will have a quick read over it before implementing your contribution.
 
+The following is a high level overview over the source code so that you know where to add your code:
+
+    Python imports
+    ...
+    Utility variables
+    ...
+    Utility related classes and functions
+    ...
+    Card / reader related classes and functions
+    ...
+    UI related classes and functions
+    ...
+    Bitcoin related classes and functions
+    ...
+    Application start
+
 # Thank You!
 
 Your contributions to open source, large or small, make projects like this possible. Thank you for taking the time to contribute.
