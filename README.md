@@ -18,7 +18,7 @@ Praesidium enables you to do a lot of things with your Blockchain Security 2Go c
 
 If you want to learn Bitcoin on a low level the transaction logs even show you how each transaction was built byte for byte.
 
-**IMPORTANT:** Praesidium currently does not support P2SH or Segwit transactions!
+**IMPORTANT:** Praesidium currently does not support P2SH or Segwit transactions (meaning also no base32/bench32 address format support)!
 
 ## Installation
 To install Praesidium either clone this repository or download the [Praesidium](praesidium) folder to your machine.
