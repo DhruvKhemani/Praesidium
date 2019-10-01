@@ -12,7 +12,7 @@
   </property>
   <property name="font">
    <font>
-    <family>MS Shell Dlg 2</family>
+    <family>Arial</family>
     <pointsize>8</pointsize>
     <italic>false</italic>
     <strikeout>false</strikeout>
@@ -57,7 +57,7 @@
      </property>
      <property name="font">
       <font>
-       <family>Source Sans Pro</family>
+       <family>Arial</family>
        <pointsize>14</pointsize>
        <weight>50</weight>
        <bold>false</bold>
@@ -132,7 +132,7 @@ border: none;
       </property>
       <property name="font">
        <font>
-        <family>Source Sans Pro</family>
+        <family>Arial</family>
         <pointsize>54</pointsize>
         <weight>50</weight>
         <bold>false</bold>
@@ -206,7 +206,7 @@ border: none;
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -228,7 +228,7 @@ border: none;
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -253,7 +253,7 @@ border: none;
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -275,7 +275,7 @@ border: none;
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -300,7 +300,7 @@ border: none;
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -322,7 +322,7 @@ border: none;
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -377,7 +377,7 @@ border: none;
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -400,7 +400,7 @@ border: none;</string>
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -423,7 +423,7 @@ border: none;</string>
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -483,7 +483,7 @@ border: none;</string>
         <widget class="QLabel" name="btc_addr">
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>14</pointsize>
           </font>
          </property>
@@ -541,7 +541,7 @@ border: none;</string>
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -582,7 +582,7 @@ border: none;</string>
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -607,7 +607,7 @@ border: none;</string>
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -670,7 +670,7 @@ border: none;</string>
           <widget class="QLabel" name="amount_title">
            <property name="font">
             <font>
-             <family>Source Sans Pro</family>
+             <family>Arial</family>
              <pointsize>12</pointsize>
             </font>
            </property>
@@ -683,7 +683,7 @@ border: none;</string>
           <widget class="QLineEdit" name="amount">
            <property name="font">
             <font>
-             <family>Source Sans Pro</family>
+             <family>Arial</family>
              <pointsize>12</pointsize>
             </font>
            </property>
@@ -708,7 +708,7 @@ border: none;</string>
           <widget class="QLabel" name="amount_result">
            <property name="font">
             <font>
-             <family>Source Sans Pro</family>
+             <family>Arial</family>
              <pointsize>12</pointsize>
             </font>
            </property>
@@ -743,7 +743,7 @@ border: none;</string>
           <widget class="QLabel" name="fee_title">
            <property name="font">
             <font>
-             <family>Source Sans Pro</family>
+             <family>Arial</family>
              <pointsize>12</pointsize>
             </font>
            </property>
@@ -756,7 +756,7 @@ border: none;</string>
           <widget class="QLineEdit" name="fee">
            <property name="font">
             <font>
-             <family>Source Sans Pro</family>
+             <family>Arial</family>
              <pointsize>12</pointsize>
             </font>
            </property>
@@ -778,7 +778,7 @@ border: none;</string>
           <widget class="QLabel" name="fee_result">
            <property name="font">
             <font>
-             <family>Source Sans Pro</family>
+             <family>Arial</family>
              <pointsize>12</pointsize>
             </font>
            </property>
@@ -819,7 +819,7 @@ border: none;</string>
           <widget class="QLabel" name="target_address_title">
            <property name="font">
             <font>
-             <family>Source Sans Pro</family>
+             <family>Arial</family>
              <pointsize>12</pointsize>
             </font>
            </property>
@@ -838,7 +838,7 @@ border: none;</string>
            </property>
            <property name="font">
             <font>
-             <family>Source Sans Pro</family>
+             <family>Arial</family>
              <pointsize>12</pointsize>
             </font>
            </property>
@@ -948,7 +948,7 @@ border: none;</string>
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -971,7 +971,7 @@ border: none;</string>
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -1005,7 +1005,7 @@ border: none;</string>
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -1134,7 +1134,7 @@ border: none;</string>
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -1157,7 +1157,7 @@ border: none;</string>
          </property>
          <property name="font">
           <font>
-           <family>Source Sans Pro</family>
+           <family>Arial</family>
            <pointsize>12</pointsize>
           </font>
          </property>
@@ -1207,7 +1207,7 @@ border: none;</string>
      </property>
      <property name="font">
       <font>
-       <family>Source Sans Pro</family>
+       <family>Arial</family>
        <pointsize>12</pointsize>
        <italic>false</italic>
       </font>
