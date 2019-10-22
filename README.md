@@ -23,8 +23,7 @@ If you want to learn Bitcoin on a low level the transaction logs even show you h
 ## Installation
 To install Praesidium either clone this repository or download the [Praesidium](praesidium) folder to your machine.
 
-Please note that this software is inteded for use with Python 3. It was tested and build on Python version 3.6.8.
-It does not support Python 2 and there are currently no plans to support it!
+Please note that this software is inteded for use with Python 3. It was tested and build on Python versions 3.6.8 and 3.7.4.
 
 ### Dependencies
 Praesidium uses a total of 4 dependencies which do not come nativly with python:
