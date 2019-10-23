@@ -54,7 +54,7 @@ If any errors pop up, you are probably still missing some files/dependencies. I 
     pip install pyside2
 
 #### Qrcode:
-Qrcode needs [Pillow](https://pillow.readthedocs.io/en/stable/index.html)(a Python Imaging Library fork) to function correctly.
+Qrcode needs [Pillow](https://pillow.readthedocs.io/en/stable/index.html) (a Python Imaging Library fork) to function correctly.
 
     pip install Pillow
     pip install qrcode
