@@ -42,7 +42,7 @@ You can use the PIP installer (for Python 3!) to install most these dependencies
 #### Blocksec2go:
 To install the blocksec2go python library i recommend you follow this [installation guide](https://github.com/Infineon/BlockchainSecurity2Go-Python-Library#install-prerequisites) since this library uses the [pyscard](https://github.com/LudovicRousseau/pyscard) library which requieres [swig](http://www.swig.org/).
 
-If you are on Windows and already have [chocolately package manager](https://chocolatey.org) installed you can do the next to steps to install the blocksec2go library:
+If you are on Windows and already have [chocolately package manager](https://chocolatey.org) installed you can do the following steps to install the blocksec2go library:
 
     choco install swig
     pip install blocksec2go
