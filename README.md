@@ -18,8 +18,6 @@ Praesidium enables you to do a lot of things with your Blockchain Security 2Go c
 
 If you want to learn Bitcoin on a low level the transaction logs even show you how each transaction was built byte for byte.
 
-**IMPORTANT:** Praesidium currently does not support P2SH or Segwit transactions (meaning also no base32/bench32 address format support)!
-
 ## Installation
 To install Praesidium either clone this repository or download the [Praesidium](praesidium) folder to your machine.
 
@@ -29,6 +27,7 @@ Please note that this software is inteded for use with Python 3. It was tested a
 Praesidium uses a total of 4 dependencies which do not come nativly with python:
 
 * [Base58](https://github.com/keis/base58)
+* [Bech32](https://github.com/fiatjaf/bech32)
 * [Blocksec2go](https://github.com/Infineon/BlockchainSecurity2Go-Python-Library)
 * [PySide2](https://www.qt.io/qt-for-python)
 * [Qrcode](https://github.com/lincolnloop/python-qrcode)
@@ -38,6 +37,10 @@ You can use the PIP installer (for Python 3!) to install most these dependencies
 #### Base58:
 
     pip install base58
+
+#### Bech32:
+
+    pip install bech32
 
 #### Blocksec2go:
 To install the blocksec2go python library i recommend you follow this [installation guide](https://github.com/Infineon/BlockchainSecurity2Go-Python-Library#install-prerequisites) since this library uses the [pyscard](https://github.com/LudovicRousseau/pyscard) library which requieres [swig](http://www.swig.org/).
