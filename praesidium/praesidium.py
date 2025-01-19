@@ -18,6 +18,7 @@ import blocksec2go
 from blocksec2go.comm import observer
 
 import base58
+import bech32
 import qrcode
 
 developer = True
@@ -1014,15 +1015,26 @@ class transaction_helper:
     """ Decodes and strips the Bitcoin address to the format that 
     is achived when you hash the public key - `RIPEMD160(SHA256(public_key))`.
     """
-    btc_addr_striped = base58.b58decode(btc_addr)[1:21]
-    pub_key_script = (
-        self.get_op_code('OP_DUP')
-      + self.get_op_code('OP_HASH160')
-      + bytes([0x14])
-      + btc_addr_striped
-      + self.get_op_code('OP_EQUALVERIFY')
-      + self.get_op_code('OP_CHECKSIG')
-      )
+    if(btc_addr.startswith("1")):
+      message('"base58" Address detected: ' + btc_addr, 'dev')
+      btc_addr_striped = base58.b58decode(btc_addr)[1:21]
+      pub_key_script = (
+          self.get_op_code('OP_DUP')
+        + self.get_op_code('OP_HASH160')
+        + bytes([0x14])
+        + btc_addr_striped
+        + self.get_op_code('OP_EQUALVERIFY')
+        + self.get_op_code('OP_CHECKSIG')
+        )
+    if(btc_addr.startswith("bc1")):
+      message('"bech32" Address detected: ' + btc_addr, 'dev')
+      public_key_hash = bech32.decode("bc", btc_addr)
+      pub_key_script = (
+          bytes([0x00])
+        + bytes([0x14])
+        + bytes(public_key_hash[1])
+        )
+    print(pub_key_script.hex())
     return pub_key_script
 
   def get_total_output_number(self):
@@ -1075,8 +1087,8 @@ class transaction_helper:
       all_outputs = bytes()
 
       value = struct.pack('<Q', int(amount))
-      script_len = bytes([0x19]) # Standard PkScript len = 25 Bytes
       recipient_addr = self.get_pub_key_script(ui.target_address.text())
+      script_len = len(recipient_addr).to_bytes(1, "big")
 
       output_target = (
           value
