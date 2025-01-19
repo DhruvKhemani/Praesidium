@@ -59,7 +59,6 @@
       <font>
        <family>Arial</family>
        <pointsize>14</pointsize>
-       <weight>50</weight>
        <bold>false</bold>
       </font>
      </property>
@@ -134,7 +133,6 @@ border: none;
        <font>
         <family>Arial</family>
         <pointsize>54</pointsize>
-        <weight>50</weight>
         <bold>false</bold>
         <underline>false</underline>
        </font>
@@ -484,7 +482,7 @@ border: none;</string>
          <property name="font">
           <font>
            <family>Arial</family>
-           <pointsize>14</pointsize>
+           <pointsize>12</pointsize>
           </font>
          </property>
          <property name="cursor">
@@ -761,7 +759,7 @@ border: none;</string>
             </font>
            </property>
            <property name="text">
-            <string>600</string>
+            <string>1512</string>
            </property>
            <property name="maxLength">
             <number>20</number>
@@ -832,7 +830,7 @@ border: none;</string>
           <widget class="QLineEdit" name="tar_addr">
            <property name="minimumSize">
             <size>
-             <width>320</width>
+             <width>400</width>
              <height>0</height>
             </size>
            </property>
@@ -855,7 +853,7 @@ border: none;</string>
             <string>1638JQhRa95UAkpXpSQso7oH44Go33Prca</string>
            </property>
            <property name="maxLength">
-            <number>35</number>
+            <number>50</number>
            </property>
            <property name="frame">
             <bool>true</bool>
@@ -1173,10 +1171,10 @@ border: none;</string>
       </layout>
      </widget>
     </widget>
-    <zorder>card</zorder>
     <zorder>confirmation</zorder>
     <zorder>key</zorder>
     <zorder>no_card</zorder>
+    <zorder>card</zorder>
    </widget>
    <widget class="QFrame" name="status_bar">
     <property name="geometry">
